@@ -37,6 +37,7 @@
             this.buttonAddData = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.buttonConnect = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // inputName
@@ -114,11 +115,22 @@
             this.label4.TabIndex = 1;
             this.label4.Text = "Results";
             // 
+            // buttonConnect
+            // 
+            this.buttonConnect.Location = new System.Drawing.Point(137, 53);
+            this.buttonConnect.Name = "buttonConnect";
+            this.buttonConnect.Size = new System.Drawing.Size(75, 23);
+            this.buttonConnect.TabIndex = 4;
+            this.buttonConnect.Text = "Connect!";
+            this.buttonConnect.UseVisualStyleBackColor = true;
+            this.buttonConnect.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(358, 211);
+            this.Controls.Add(this.buttonConnect);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.buttonAddData);
             this.Controls.Add(this.label3);
@@ -146,6 +158,7 @@
         private System.Windows.Forms.Button buttonAddData;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button buttonConnect;
     }
 }
 
